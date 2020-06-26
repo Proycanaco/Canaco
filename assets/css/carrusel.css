@@ -1,7 +1,7 @@
 .slider {
 	width: 95%;
-	overflow: hidden;
 	margin: auto;
+	overflow: hidden;
 }
 
 .slider ul {
@@ -9,7 +9,7 @@
 	padding: 0;
 	width: 400%;
 	
-	animation: cambio 5s infinite alternate linear;
+	animation: cambio 20s infinite alternate linear;
 }
 
 .slider li {
