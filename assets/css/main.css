@@ -2083,7 +2083,8 @@ input, select, textarea {
 /* Logo */
 
 	#logo {
-		width: 60%;
+		width: 100%;
+		margin-top: 10%;
 		text-align: center;
 		position: relative;
 		top: 1.5em;
