@@ -1,6 +1,7 @@
 .slider {
 	width: 95%;
 	overflow: hidden;
+	margin: auto;
 }
 
 .slider ul {
