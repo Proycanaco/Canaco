@@ -1,7 +1,6 @@
 .slider {
 	width: 95%;
-	margin-top: 10%;
-	margin-bottom: 10%;
+	margin: auto;
 	overflow: hidden;
 }
 
