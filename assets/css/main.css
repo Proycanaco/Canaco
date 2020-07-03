@@ -2084,7 +2084,8 @@ input, select, textarea {
 
 	#logo {
 		width: 90%;
-		margin: auto;
+		margin: 20%;
+		padding: 8%;
 		text-align: center;
 		position: relative;
 		top: 1.5em;
