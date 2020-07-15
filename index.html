@@ -19,18 +19,18 @@
 right: 50%;
 }
 
-.carousel{
+.carrusel{
 	top: 25px;
 }
 
-.carousel-item {
+.carrusel-item {
   -webkit-transition: all 0.6s ease-out;
   transition: all 0.6s ease-out;
   left: 0;
   width: 780;
 }
 
-.carousel-indicators {
+.carrusel-indicators {
   list-style: none;
   margin: 0;
   padding: 0;
@@ -42,11 +42,10 @@ right: 50%;
   z-index: 10;
 }
 
-.carousel-bullet.active {
+.carrusel-bullet.active {
   color: #2b6cb0;
 }
 	</style>
-		
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<link rel="stylesheet" href="assets/css/carrusel.css" />
@@ -54,32 +53,28 @@ right: 50%;
 		<meta http-equiv="X-UA-Compatible" content="ie=edge">
 		<link href="https://unpkg.com/tailwindcss/dist/tailwind.min.css" rel="stylesheet">
 		<meta charset="utf-8" />
-	
 	<title>Conoce Guadalajara</title>
-
 </head>
-
 <body class="homepage is-preload">
-	
 	<div id="page-wrapper">
 
 		<!-- Header -->
 		<section id="header" class="wrapper">
 
 			<!-- Logo -->
-			<div class="carousel relative shadow-2xl">
-				<div class="carousel-inner relative overflow-hidden w-full flex">
-					<div class="carousel-item w-full min-w-full relative">
+			<div class="carrusel relative shadow-2xl">
+				<div class="carrusel-inner relative overflow-hidden w-full flex">
+					<div class="carrusel-item w-full min-w-full relative">
 						<div class="block h-full w-full text-white text-5xl text-center">
 							<a href=""><img class="mx-auto" src="images/Carrusel1.jpg" width="780"></a>
 						</div>
 					</div>
-					<div class="carousel-item w-full min-w-full relative">
+					<div class="carrusel-item w-full min-w-full relative">
 						<div class="block h-full w-full text-white text-5xl text-center">
 							<img class="mx-auto" src="images/Carrusel2.jpg" width="780">
 						</div>
 					</div>
-					<div class="carousel-item w-full min-w-full relative">
+					<div class="carrusel-item w-full min-w-full relative">
 						<div class="block h-full w-full text-white text-5xl text-center">
 							<img class="mx-auto" src="images/Carrusel5.jpg" width="780">
 						</div>
@@ -87,25 +82,25 @@ right: 50%;
 				</div>
 				<label onclick="slideBackward();reset()" class="w-10 h-10 ml-2 md:ml-10 absolute cursor-pointer text-3xl font-bold text-white leading-tight text-center z-10 inset-y-0 left-0 my-auto">‹‹</label>
 				<label onclick="slideForward();reset()" class="w-10 h-10 mr-2 md:mr-10 absolute cursor-pointer text-3xl font-bold text-white leading-tight text-center z-10 inset-y-0 right-0 my-auto">››</label>
-				<ol class="carousel-indicators">
+				<ol class="carrusel-indicators">
 					<li onclick="setSlideActive(0);reset()" class="inline-block mr-3">
-						<label class="carousel-bullet cursor-pointer block text-4xl text-white hover:text-blue-700 active">•</label>
+						<label class="carrusel-bullet cursor-pointer block text-4xl text-white hover:text-blue-700 active">•</label>
 					</li>
 					<li onclick="setSlideActive(1);reset()" class="inline-block mr-3">
-						<label class="carousel-bullet cursor-pointer block text-4xl text-white hover:text-blue-700">•</label>
+						<label class="carrusel-bullet cursor-pointer block text-4xl text-white hover:text-blue-700">•</label>
 					</li>
 					<li onclick="setSlideActive(2);reset()" class="inline-block mr-3">
-						<label class="carousel-bullet cursor-pointer block text-4xl text-white hover:text-blue-700">•</label>
+						<label class="carrusel-bullet cursor-pointer block text-4xl text-white hover:text-blue-700">•</label>
 					</li>
 				</ol>
 			</div>
 
 			<script>
 				/**
-				* Carousel
+				* carrusel
 				*/
-				var slides = document.querySelectorAll('.carousel-item');
-				var bullets = document.querySelectorAll('.carousel-bullet');
+				var slides = document.querySelectorAll('.carrusel-item');
+				var bullets = document.querySelectorAll('.carrusel-bullet');
 				var slidePos = 0;
 				var interval = 5500
 				
@@ -186,36 +181,8 @@ right: 50%;
 
 		<!-- Intro -->
 		<section id="intro" class="wrapper style1">
-			<div class="title">Conoce Guadalajara</div>
-			<div class="container">
-				<p class="style1">Sinónimo de mariachi, folclor,
-					charrería, tequila y ciudadanos que reciben a
-					sus visitantes con gran calidez humana...</p>
-				<div class="">
-					<img src="images/IndexPic/Portada.jpg" alt="" width="70%">
-				</div>
-				<p class="style2">
-					El folclor tapatío representa la escencia mexicana
-				</p>
-				<p class="style3">Hoy nuestra ciudad es reconocida por la calidez
-					de su gente y por la calidad de vida que ofrece a sus habitantes.
-					Guadalajara se ha consolidado como una de las grandes capitales
-					de América, como una ciudad cultural, diversa e innovadora.</p>
-				<ul class="actions">
-					<li><a href="centrohistorico.html" class="button style3 large">Conoce más</a></li>
-				</ul>
-			</div>
+			
 		</section>
-
-		<!-- Main -->
-
-
-		<!-- Image -->
-
-
-		<!-- Features -->
-
-
 		<!-- Highlights -->
 		<section id="highlights" class="wrapper style3">
 			<div class="title">Atracciones</div>
